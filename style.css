@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+#main-header {
+  width: 100%;
+position: relative;
+  background: rgba(255, 140, 0, 0.5);
+    color: #000;
+    font-family: 'Josefin Sans' , sans-serif;
+    border-bottom: 2px solid #000;
+  text-align: center;
+padding: 10px;
+}
+body{
+  background: #27d;
+  color: #fff;
+ margin: 0px;
+
+
+font-family: 'Balsamiq Sans' ,sans-serif;
+}
+main{
+  margin-left: 13px;
+
+}
+
+a{
+  color: #ff0;
+  text-decoration: none;
+}
+a:hover{
+  color:#f00
+
+}
+#Product-Details{
+max-width: 1800px;
+}
+
+button{
+  box-shadow: 2px 2px 5px ;
+}
+#Product-Details article{
+  max-width: 368px;
+  display: inline-block;
+border: 1px solid #000;
+background: #556
+}
+.search {
+  width: 301px;
+  padding: 10px 10px ;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 2px solid #fff;
+outline: none;
+
+}
+.search:focus{
+  color: #00f;
+}
+.doodh{
+
+      width: 400px;
+      height: 320px;
+
+      background-position: center;
+      background-size: cover;
+      border-radius: 100%;
+
+}
+.image{
+  height: 200px;
+  width:100%;
+  background-size:cover !important;
+  background-position:center !important;
+
+}

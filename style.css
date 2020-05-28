@@ -3,7 +3,7 @@
 
 #main-header {
   width: 100%;
-position: relative;
+position: fixed;
   background: rgba(255, 140, 0, 0.5);
     color: #000;
     top:0px;
@@ -16,13 +16,12 @@ body{
   background: #27d;
   color: #fff;
  margin: 0px;
-margin-top:50px;
 
 font-family: 'Balsamiq Sans' ,sans-serif;
 }
 main{
   margin-left: 13px;
-
+margin-top:50px;
 }
 
 a{

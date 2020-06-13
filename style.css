@@ -28,6 +28,7 @@ body{
   color: #fff;
   margin: 0px 0px 0px 0px;
   font-family: 'Balsamiq Sans' ,sans-serif;
+  height: 100vh;
 }
 
 main{
@@ -97,8 +98,8 @@ button{
 }
 
 @keyframes doodh {
-  0%{left:0%;top:10%;}
-  100%{left:62%;top:10%;}
+  0%{left:20%;top:10%;}
+  100%{left:40%;top:10%;}
 }
 
 .doodh{
@@ -108,8 +109,8 @@ button{
       animation-direction: alternate;
       position: relative;
 animation-timing-function:ease-in-out;
-    width: 400px;
-      height: 320px;
+      width: 37%;
+      max-height: 200px;
       background-position: center;
       background-size: cover;
       border-radius:100% ;
@@ -133,3 +134,24 @@ animation-timing-function:ease-in-out;
  h2{
    margin-left: -5%;
  }
+@media screen and (min-width:480px) {
+
+  @keyframes doodh {
+    0%{left:0%;top:10%;}
+    100%{left:60%;top:10%;}
+  }
+
+  .doodh{
+        animation-name: doodh;
+        animation-duration: 2s;
+        animation-iteration-count:infinite;
+        animation-direction: alternate;
+        position: relative;
+  animation-timing-function:ease-in-out;
+        width: 37%;
+        height: 320px;
+        background-position: center;
+        background-size: cover;
+        border-radius:100% ;
+  }
+}

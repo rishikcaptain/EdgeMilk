@@ -1,77 +1,135 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
+@keyframes Alter {
+    0%{  color:#000;}
+    50{color:#888;}
+    100%{  color:#fff;}
+}
+
 #main-header {
-  width: 100%;
-position:fixed;
-  background: rgb(40, 40, 40, 1);
+    animation-name:Alter;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width: 100%;
+    position:absolute;
+    background-image: linear-gradient(to right,#cc2b5e,#753a88);
     color: #fff;
     top: 0px;
     font-family: 'Josefin Sans' , sans-serif;
-    border-bottom: 2px solid #000;
-  text-align: center;
-padding: 10px;
+    border-bottom:  2px solid #000;
+    text-align: center;
+    padding: 2% 1% 2% 0%;
 }
+
 body{
-  background:rgb(190, 49, 69);
+  background: #ee9ca7;
   color: #fff;
- margin: 0px;
-
-
-font-family: 'Balsamiq Sans' ,sans-serif;
+  margin: 0px 0px 0px 0px;
+  font-family: 'Balsamiq Sans' ,sans-serif;
 }
+
 main{
-  margin-left: 13px;
-margin-top: 100px;
+  background:#42275a;
+  margin:9% 10% 0% 10%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  padding-top: none;
+}
+
+footer{
+  background:  #42275a   ;
+  margin:0% 10% 0% 10%;
+  padding-bottom: 5%;
 }
 
 a{
   color: #ff0;
   text-decoration: none;
 }
-a:hover{
-  color:#f00
 
-}
-#Product-Details{
-max-width: 1800px;
+a:hover{
+  color:#f00;
 }
 
 button{
   box-shadow: 2px 2px 5px ;
 }
+
 #Product-Details article{
-  max-width: 368px;
-  display: inline-block;
-border: 1px solid #000;
-background: #556
+  width: 33%;
+  display:inline-block;
+  border: 1px solid #000;
+  background: #00B3B3;
+  margin:1% 5% 3% 6%;
+  padding:2%;
+  border-radius: 30px ;
+  transition-duration:.5s;
+  transition-timing-function: linear;
+  transition-delay: ;
 }
+
+#Product-Details article:hover{
+  padding: 3%;
+  border-color: #fff;
+/*  transform: rotate(360deg);*/
+}
+
 .search {
-  width: 301px;
+  width: 50%;
   padding: 10px 10px ;
   font-size: 20px;
   border-radius: 20px;
   border: 2px solid #fff;
-outline: none;
-
+  outline: none;
+  margin-left:25%;
 }
+
+#top{
+  font-variant: small-caps;
+  margin-left: 40%;
+}
+
 .search:focus{
   color: #00f;
 }
+
+@keyframes doodh {
+  0%{left:0%;top:10%;}
+  100%{left:62%;top:10%;}
+}
+
 .doodh{
-
-      width: 400px;
+      animation-name: doodh;
+      animation-duration: 3s;
+      animation-iteration-count:infinite;
+      animation-direction: alternate;
+      position: relative;
+animation-timing-function:ease-in-out;
+    width: 400px;
       height: 320px;
-
       background-position: center;
       background-size: cover;
-      border-radius: 100%;
-
+      border-radius:100% ;
 }
+
 .image{
-  height: 200px;
+  height:250px;;
   width:100%;
   background-size:cover !important;
   background-position:center !important;
-
+  border-radius: 30px;
 }
+
+ table{
+   display: inline-block;
+ }
+
+#extra{margin-left: 23%;
+  display:inline-block;
+}
+ h2{
+   margin-left: -5%;
+ }
